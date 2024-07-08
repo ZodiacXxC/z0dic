@@ -6,8 +6,6 @@
 	text-decoration:none;
 }
 body{
-	overflow-x: hidden;
-	overflow-y:hidden;
 	background: #222;
 }
 .hero-header{
