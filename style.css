@@ -191,6 +191,7 @@ nav .navlinks li a{
 	}
 	nav .navlinks{
 		display:none;
+		right:0;
 		position: absolute;
 		top:110px;
 		bottom: 0;
