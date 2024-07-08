@@ -190,9 +190,9 @@ nav .navlinks li a{
 		top:0;
 	}
 	nav .navlinks{
+		display:none;
 		position: absolute;
 		top:110px;
-		right: -100%;
 		bottom: 0;
 		width: 50%;
 		height: 60vh;
@@ -211,7 +211,7 @@ nav .navlinks li a{
 		text-align: center;
 	}
 	nav .navlinks.open{
-		right: 0;
+		display:block;
 	}
 
 }
