@@ -282,6 +282,7 @@ nav .navlinks li a{
 
 .hero-med{
 	width: 100%;
+	min-height: 100vh;
 	margin-top: 275px;
 	background: #e5e5e5;
 	display: flex;
