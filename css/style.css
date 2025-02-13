@@ -8497,6 +8497,14 @@ h1, h2, h3, h4, h5,
             .overlay-1 {
               pointer-events: none;
             }
+            .slider-item {
+              overflow: auto;
+              touch-action: pan-y;
+            }
+            .owl-carousel .owl-item {
+              pointer-events: auto;
+              touch-action: pan-y;
+            }
             .image2{
                 filter: blur(1px) brightness(70%);
               }
