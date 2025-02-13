@@ -8485,6 +8485,10 @@ h1, h2, h3, h4, h5,
             -ms-transform: skewX(-20deg);
             transform: skewX(-20deg); }
           @media (max-width: 600px) {
+            body {
+              overflow-y: scroll;
+              -webkit-overflow-scrolling: touch;
+            }
             .image2{
                 filter: blur(1px) brightness(70%);
               }
